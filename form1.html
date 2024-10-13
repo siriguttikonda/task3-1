@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application</title>
+</head>
+<body>
+    <form action="./reference.html" method="get">
+    <fieldset>
+    <center><h1>General buspass application</h1></center>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Applicant details
+        </legend>
+            <label for="username"> username: </label>
+            <input type="text" name="username" ID="username" required></input> 
+            <label for="father's/gaurdian's name"> father's/gaurdian's name </label>
+             <input type="text" name="father's/gaurdian's name" ID="father's/gaurdian's name" required></input><br><br>
+             <label for="Date of birth"> Date of birth:</label>
+             : <input type="Date" name="Date of birth" ID="Date of birth" required></input>
+           <label for="gender"> gender: </label>
+           <label for="male"> male </label>
+           <input type="radio" name="gender" ID="male" value="male" required></input>
+           <label for="female"> female <label>
+           <input type="radio" name="gender" ID="female" value="female" required></input><br><br>
+           <label for="Age as on"> Age as on:</label>
+           
+           <label for="year(s)" >year(s) </label>
+            <input type="text" name= "Age as on"  ID="year(s)"></input>
+           <label for="Month(s)"> Month(s) </label>
+            <input type="text" name= "Age as on"  ID="Month(s)"></input>
+           <label for="day(s)"> day(s) </label>
+            <input type="text" name= "Age as on" ID="day(s)"></input>
+           <label for="Aadhar No"> Aadhar No: </label>
+           <input type="text" name="Aadhar No" ID="Aadhar No"></input><br><br>
+           <label for="Mobile No"> Mobile No: </label>
+           <input type="text" name="Mobile No" ID="Mobile No" required></input>
+           <label for="E-mail id"> E-mail id: </label>
+           <input type="text" name="E-mail id" ID="E-mail id" required></input><br><br>
+           <label for="Photo"> Photo: </label>
+           <input type="file" name="Photo" ID="Photo" required></input>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Residential Address Details
+            </legend>
+            <label for="Address"> Applicant's Address </label>
+           <textArea name="Address" ID="Address" rows="4" column="4" required></textArea>
+           <label for="District"> District </label>
+           <Select id="District">
+            <option value="select">select</option>
+            <option value="kphb">kphb</option>
+            <option value="kukatpally">kukatpally</option>
+            <option value="Lb nagar">Lb nagar</option>
+            <option value="Hayatnagar">Hayatnagar</option>
+           </Select>
+           <br>
+           <br>
+           <label for="Mandal"> Mandal </label>
+           <Select id="Mandal">
+            <option value="select">select</option>
+            <option value="kukatpally">kukatpally</option>
+            <option value="kukatpally">kukatpally</option>
+            <option value="Lb nagar">Lb nagar</option>
+            <option value="Lb nagar">Lb nagar</option>
+           </Select>
+           
+           <label for="Village"> Village </label>
+           <Select id="Village">
+            <option value="select">select</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Hyderabad">Hyderabad</option>
+           </Select>
+           <br><br>
+
+           <label for="Pincode"> Pincode </label>
+            <input type="text" name= "Pincode"  ID="Pincode" placeholder="xxxxxx"></input>
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Pass type details
+            </legend>
+            <label for="City"> City </label>
+           <Select id="City">
+            <option value="select">select</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Vishakapatnam">Vishakapatnam</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Bangalore">Bangalore</option>
+           </Select>
+           <br>
+           <br>
+           <label for="Pass type"> Pass type </label>
+           <Select id="Pass type">
+            <option value="select">select</option>
+            <option value="Student"> Student</option>
+            <option value="Employee">Employee</option>
+            <option value="Daily">Daily</option>
+           </Select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>
+                Mode Of Payment & Pass Collection
+            </legend>
+            <label for="Payment mode"> Payment mode </label>
+            <Select id="Payment mode">
+            <option value="select">select</option>
+            <option value="UPI"> UPI </option>
+            <option value=" Cash"> Cash </option>
+            <option value=" G-pay"> G-pay </option>
+           </Select>
+           <br>
+           <br>
+           <label for=" delivery "> Pass delivery mode </label>
+           <Select id=" delivery ">
+            <option value="select">select</option>
+            <option value="Direct"> Direct </option>
+            <option value="Post"> Post </option>
+           </Select>
+           <br>
+           <br>
+           <label for="Center"> Center at which you want to collect pass  </label>
+           <Select id="Center ">
+            <option value="select">select</option>
+            <option value="kphb"> kphb </option>
+            <option value=" kukatpally"> kukatpally </option>
+            <option value="Lb nagar"> Lb Nagar </option>
+           </Select>
+           <br>
+           <br>
+           
+        </fieldset>
+    </form>
+</body>
+</html>
